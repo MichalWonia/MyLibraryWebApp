@@ -1,0 +1,227 @@
+@charset "UTF-8";
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+
+.push {
+  height: 55px;
+}
+
+.footer{
+	height: 70px;
+	background-color: black;
+	text-align: center;
+}
+
+.footer_label{
+	color: white;
+	position: absolute;
+	left: 40%;
+}
+
+#central_message{
+	margin: auto;
+  	width: 50%;
+  	padding: 10px;
+  	text-align: center;
+  	margin-top: 80px;
+} 
+
+.home_label{
+	color: white;
+	font-size: 30px;
+	position: absolute;
+	left: 30px;
+}
+
+.navbar_img
+{
+	height: 80px;
+	position:absolute;
+    top:0;
+    width:100%;
+    left: 0;
+    z-index: -1;
+}
+
+.links{
+	text-align: right;
+	margin-top: 20px;
+	margin-right: 30px;
+}
+
+.home_link{
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	padding: 15px;
+}
+
+.book_list{
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+}
+
+.book_list:hover{
+	color: red;
+}
+
+.home_link:hover{
+	color: red;
+}
+
+table{
+	background:#000;
+}
+tr{
+	background: #fff;
+}
+
+#button_add_book
+{
+  text-decoration: none;
+  text-align: center;
+  margin: 0;
+  border-radius: 10px;
+  font-size: 14px;
+  background: #0000ff;
+  padding: 5px;
+  width: 150px;
+  border: 2px solid white;	
+  color: white;
+  transition: 0.2s;	  
+}
+
+#button_add_book:hover
+{	
+  text-decoration:none;
+  background:#0000a0;
+  color:white;
+  cursor: pointer;
+}
+
+.button_delete_cover
+{
+  text-decoration: none;
+  text-align: center;
+  margin: 0;
+  border-radius: 10px;
+  font-size: 14px;
+  background: #ff282e;
+  padding: 5px;
+  width: 80px;
+  border: 2px solid white;	
+  color: white;
+  transition: 0.2s;	  
+}
+
+.button_delete_cover:hover
+{	
+  text-decoration:none;
+  background:#df0005;
+  color:white;
+  cursor: pointer;
+}
+
+.button_delete_book
+{
+  text-decoration: none;
+  text-align: center;
+  margin: 0;
+  border-radius: 10px;
+  font-size: 14px;
+  background: #ff282e;
+  padding: 5px;
+  width: 100px;
+  border: 2px solid white;	
+  color: white;
+  transition: 0.2s;	  
+}
+
+.button_delete_book:hover
+{	
+  text-decoration:none;
+  background:#df0005;
+  color:white;
+  cursor: pointer;
+}
+
+.button_add_cover
+{
+  text-decoration: none;
+  text-align: center;
+  margin: 0;
+  border-radius: 10px;
+  font-size: 14px;
+  background: #13b50b;
+  padding: 5px;
+  width: 80px;
+  border: 2px solid white;	
+  color: white;
+  transition: 0.2s;	  
+}
+
+.button_add_cover:hover
+{	
+  text-decoration:none;
+  background:#279502;
+  color:white;
+  cursor: pointer;
+}
+
+.button_view_book
+{
+  text-decoration: none;
+  text-align: center;
+  margin: 0;
+  border-radius: 10px;
+  font-size: 14px;
+  background: #f4bb0f;
+  padding: 5px;
+  width: 100px;
+  border: 2px solid white;	
+  color: black;
+  transition: 0.2s;	  
+}
+
+.button_view_book:hover
+{	
+  text-decoration:none;
+  background:#e89c00;
+  color:black;
+  cursor: pointer;
+}
+
+.button_edit_book
+{
+  text-decoration: none;
+  text-align: center;
+  margin: 0;
+  border-radius: 10px;
+  font-size: 14px;
+  background: #372eed;
+  padding: 5px;
+  width: 100px;
+  border: 2px solid white;	
+  color: white;
+  transition: 0.2s;	  
+}
+
+.button_edit_book:hover
+{	
+  text-decoration:none;
+  background:#6246ff;
+  color:white;
+  cursor: pointer;
+}
+
+
+

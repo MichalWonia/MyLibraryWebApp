@@ -1,0 +1,37 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>SiteController</servlet-name>
+  	<display-name>SiteController</display-name>
+  	<description></description>
+  	<servlet-class>library.controllers.SiteController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>FilesController</servlet-name>
+  	<display-name>FilesController</display-name>
+  	<description></description>
+  	<servlet-class>library.controllers.FilesController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>OperationController</servlet-name>
+  	<display-name>OperationController</display-name>
+  	<description></description>
+  	<servlet-class>library.controllers.OperationController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SiteController</servlet-name>
+  	<url-pattern>/SiteController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>FilesController</servlet-name>
+  	<url-pattern>/FilesController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>OperationController</servlet-name>
+  	<url-pattern>/OperationController</url-pattern>
+  </servlet-mapping>
+</web-app>
