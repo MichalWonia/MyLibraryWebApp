@@ -46,6 +46,7 @@ This will display the selected book and show informations about it.
 
 <img src="readmeImages/viewBook.png">
 
+You can turn back to home page or books table by clicking the appropriate link in the navigation bar.
 I think it is a very nice project and I am considering extending this project in the future.
 
 # Author
