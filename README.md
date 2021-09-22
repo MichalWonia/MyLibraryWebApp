@@ -3,8 +3,9 @@
 This is one of my next Java web projects. 
 This application is a web library where you can store books. The project provides CRUD operations.
 It allows you to add new books with covers, edit informations about them, change their covers or remove selected books from library.
-This project has only one commit, when I uploaded it to the repository, because I did not know GIT when I started programming this app.
-I also wrote some unit tests. I used Eclipse IDE to create this application.
+This project has only one commit, when I uploaded it to the repository, because I did not know GIT when I started programming this app. </br>
+I also wrote some unit tests using JUnit.  </br>
+I used Eclipse IDE to create this application.
 
 ## Used technologies
 - Maven,
